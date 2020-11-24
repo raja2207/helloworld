@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../Documents/codes for links/bootstrap.min.css">
+    <script src="../../../Documents/codes for links/jquery.min.js"></script>
+    <script src="../../../Documents/codes for links/bootstrap.min.js"></script>
+    <script src="../../../Documents/codes for links/popper.min.js" ></script>
+    <script src="../../../Downloads/a076d05399.js"></script>
+    <title>Check Out</title>
+    <style>
+        #lastdiva{
+            position: relative;
+            float: right;
+            margin-top: -78%;
+            margin-right: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+   <div class="container w-75">
+       <div class="text-center" >
+           <i class="fab fa-bootstrap display-3 text-primary"></i>
+           <h2>checkout from</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aliquam quasi nemo sequi doloremque debitis error  necessitatibus,<br> 
+            numquam voluptas laborum minima neque assumenda repellat consectetur ipsam, veniam ab reiciendis vero.</p>
+       </div>
+       <h2>Billing address</h2>
+       <form class="w-75">
+        <div class="row">
+            <div class="col">
+                <label for="First name">First name</label>
+                <input type="text" class="form-control">
+            </div>      
+            <div class="col">
+                <label for="Last name">Last name</label>
+                <input type="text" class="form-control">
+            </div>
+            
+            </div>
+            <form>
+                <label for="User name">User name</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+            </form>
+            <form class="w-75">
+                <label for="Email">Email <span class="text-muted">(optional)</span> </label>
+                <input type="email" placeholder="you@example.com" class="form-control">
+            </form>
+            <form class="w-75 mt-3">
+                <label for="address">address</label>
+                <input type="text" placeholder="123 main street" class="form-control">
+            </form>
+            <form class="w-75 mt-2 ">
+            <label for="address2">address2 <span class="text-muted">(optional)</span></label>
+            <input type="text" placeholder="apartment or suite" class="form-control">
+        </form>
+        <form class="w-75">
+            <div class="row">
+                <div class="col">
+                    <label for="country">country</label>
+                     <select class="custom-select" id="country">
+                    <option value="0">choose.....</option>
+                    <option value="1">india</option>
+                    <option value="2">pak</option>
+                    <option value="3">asu</option>
+                    <option value="4">nz</option>
+                    <option value="5">uk</option>
+                </select>
+
+                </div>
+                <div class="col">
+                    <label for="State">State</label>
+                <select class="custom-select" id="State">
+                    <option value="0">choose...</option>
+                    <option value="1">india</option>
+                    <option value="2">pak</option>
+                    <option value="3">asu</option>
+                    <option value="4">nz</option>
+                    <option value="5">uk</option>
+                </select>
+
+                </div>
+                <div class="col">
+                    <label for="zip">Zip</label>
+                    <input class="form-control" type="text">     
+                </div>
+
+            </div>
+            <hr>
+            <div class="form-group form-check">
+               <input type="checkbox" class="form-check-input"> <p>Shipping address is the same as my billing address</p>
+               <input type="checkbox" class="form-check-input" > <p>Save this information for next time</p>
+            </div>
+            <hr>
+            <h3>Payment</h3>
+            <div class="form-group form-check">
+            <input type="radio" class="form-check-input" ><p>Credit card</p>
+            <input type="radio" class="form-check-input" ><p>Debit card</p>
+            <input type="radio" class="form-check-input" ><p>Paypal</p>
+            </div>    
+            <div class="row">
+                <div class="col">
+                    <label for="Name on card">Name on card</label>
+                    <input type="number" class="form-control">
+                    <p class="text-muted"> Full name as displayed on card</p>
+                </div>      
+                <div class="col">
+                    <label for="Credit card number">Credit card number</label>
+                    <input type="number" class="form-control">
+                </div>
+                
+                </div>
+                <div class="row w-50">
+                    <div class="col">
+                        <label for="Expiration">Expiration</label>
+                        <input type="number" class="form-control">
+                        
+                    </div>      
+                    <div class="col">
+                        <label for="CVV">CVV</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    
+                    </div>
+                    <hr>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Continue to checkout</button>
+
+        </form>
+        </div>
+        
+         </form>      
+   </div>
+   <div id="lastdiva" class="w-25" >
+       <h2 class="text-muted">Your cart  <span class="badge badge-secondary badge-pill float-right">3</span>  </h2>
+       <ul class="list-group ">
+           <li class="list-group-item">
+               <h5>Product name</h5>
+               <span class="float-right" >$12</span>
+               <p class="text-muted" >Brief description</p>
+               
+           </li>
+           <li  class="list-group-item">
+            <h5></h5>Second product</h5>
+            <span class="float-right" >$8</span>
+            <p class="text-muted" >Brief description</p>
+            
+        </li>
+        <li  class="list-group-item">
+            <h5>Third item</h5>
+            <span class="float-right" >$5</span>
+            <p class="text-muted" >Brief description</p>
+            
+        </li>
+        <li  class="list-group-item text-success bg-light">  
+            <h5>Promo code</h5>
+            <span class="float-right" >-$5</span>
+            <p > <small> EXAMPLECODE  </small>  </p>
+            
+        </li>
+        <li  class="list-group-item">
+            <h5> <b> Total (USD)  </b>    </h5>
+            <span class="float-right" >$20</span>
+         </li>
+       </ul>
+      <div class="mt-4 border">
+          <div class="input-group px-2 mb-2 mt-2">
+              <input type="text" class="form-control" placeholder="Promo code">
+          
+              <div class="input-group-prepend">
+                  <button type="submit" class="input-group-text bg-secondary text-white "  >Redoom</button>
+              </div>
+            </div>
+      </div>
+   </div>
+
+</div>
+<footer class="text-center mt-4">
+    <p >© 2017-2018 Company Name</p>
+    <a href="">Privacy</a>
+    <a href="">Terms</a>
+    <a href=""> Support</a>
+</footer>
+<footer class="mt-4">
+
+</footer>
+</body>
+</html>
